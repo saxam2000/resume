@@ -1,7 +1,7 @@
 import React from "react";
-import {Component, PropTypes} from 'react';
-import html2canvas from 'html2canvas';
-import jsPDF from 'jspdf';
+// import {Component, PropTypes} from 'react';
+// import html2canvas from 'html2canvas';
+// import jsPDF from 'jspdf';
 import { useHistory } from "react-router-dom";
 import "../html/css/templat1.css";
 import "../html/css/templat2.css";
