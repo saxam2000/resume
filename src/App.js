@@ -4,6 +4,7 @@ import Education from './Components/Education';
 import LandingPage from './Components/LandingPage';
 import LandingPageDemo from './Components/LandingPageDemo';
 import Preview from "./Components/Preview"
+import Final from "./Components/Final"
 import SamplePreview from './Components/SamplePreview';
 import WorkHistory from './Components/WorkHistory';
 import NavBar from './Components/NavBar';
@@ -32,7 +33,7 @@ function App() {
 <Route path="/contact" exact component={Contact}></Route>
 <Route path="/education" exact component={Education}></Route>
 <Route exact path="/preview" component={SamplePreview}></Route>
-<Route exact path="/final" component={Preview}></Route>
+<Route exact path="/final" component={Final}></Route>
 <Route exact path="/workhistory" component={WorkHistory}></Route>
 <Route exact path="/test" component={Firebasetest}></Route>
 <Route exact path="/Register" component={Register}></Route>

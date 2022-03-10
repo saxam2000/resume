@@ -31,7 +31,7 @@ library.add(fab, faTwitterSquare, faFacebook, faLinkedin, faGithub);
 // import * as Icons from "@fortawesome/fontawesome-free-solid"
 // import {FontAwesomeIcon} from "FontAwesomeIcon"
 
-function Preview(props) {
+function Final(props) {
   console.log(props)
   const history=useHistory();
   const ContactKeyToVal = (key, valToAppend) => {
@@ -42,7 +42,11 @@ function Preview(props) {
     }
     return "";
   };
-
+  useEffect(() => {
+    let bt=document.querySelector(".bt")
+    bt.click();
+    
+  }, []);
 
   const getWorkHistory = (key, id, valToAppend) => {
     // console.log("came");
@@ -77,6 +81,7 @@ let skincd=`skin${props?.DocumentReducer?.skinCode===null?"1":props?.DocumentRed
   console.log(props);
   return (
     <div height="1vh" position= "absolute" >
+        <button className={"bt"} onClick={handlebt}> </button>
         <div
         style={{
           display: "flex",
@@ -320,4 +325,4 @@ let skincd=`skin${props?.DocumentReducer?.skinCode===null?"1":props?.DocumentRed
 const mapStateToProps=(store)=>{
     return store;
 }
-export default connect(mapStateToProps )(Preview);
+export default connect(mapStateToProps )(Final);

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 import TextField from '@mui/material/TextField'
 import { fieldCd } from '../constants/typeCodes'
 import { connect } from 'react-redux'
-import SamplePreview from './SamplePreview'
+// import SamplePreview from './SamplePreview'
 import Preview from './Preview'
 import { useHistory } from 'react-router'
 
@@ -99,6 +99,7 @@ function Education (props) {
               style={{display: 'flex',flexDirection: 'column',width: '100%',border: '0.5px solid #e3d4c2',alignItems: 'flex-start',height: '50%'}}
               className='EducationHtmlForm'
             >
+              <h1>{education.id+1}</h1>
               <div
                 style={{
                   display: 'flex',
@@ -112,7 +113,30 @@ function Education (props) {
                 <label style={labelCss} htmlFor='College'>
                   College Name:
                 </label>
-                6{' '}
+                
+                <div
+                  style={{
+                    width:"90%", 
+                    display: 'flex',
+                    flexDirection: 'row',
+                    flexWrap: 'nowrap'
+                  }}
+                  className='collegeName'
+                >
+                  <TextField
+                    size='small'
+                    id='outlined-basic'
+                    value={getValue(fieldCd.CollegeName, education.id)}
+                    sx={{
+                      width: '100%',
+                      margin: '1px 2% 0 0'
+                    }}
+                    name={fieldCd.CollegeName}
+                    onChange={e => onChange(e, education.id)}
+                    label='CollegeName'
+                    variant='outlined'
+                  />
+                </div>{' '}
               </div>{' '}
               <div
                 style={{

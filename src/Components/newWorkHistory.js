@@ -7,7 +7,7 @@ import { fieldCd } from "../constants/typeCodes";
 import { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { useHistory } from "react-router-dom";
-import SamplePreview from "./SamplePreview";
+// import SamplePreview from "./SamplePreview";
 
 function WorkHistory(props) {
   let history = useHistory();

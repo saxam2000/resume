@@ -149,7 +149,9 @@ let skincd=`skin${props?.DocumentReducer?.skinCode===null?"1":props?.DocumentRed
         <h1>work Section</h1>
         <button  onClick={()=>handleDownload()}         style={{border:"2px solid black", backgroundcolor:"red",height:"2rem",width:"7rem",margin:"0 0 0 1rem"}}
  > Download</button>
-        <button   onClick={()=>history.push("/templates")}    style={{border:"2px solid black", backgroundcolor:"red",height:"2rem",width:"7rem",margin:"0 0 0 1rem"}}
+        <button   onClick={()=>history.push("/workhistory")}    style={{border:"2px solid black", backgroundcolor:"red",height:"2rem",width:"7rem",margin:"0 0 0 1rem"}}
+ > Back</button>
+ <button   onClick={()=>history.push("/templates")}    style={{border:"2px solid black", backgroundcolor:"red",height:"2rem",width:"7rem",margin:"0 0 0 1rem"}}
  > Home</button>
         </div>
     <div className={skincd+"outer-container"} >
