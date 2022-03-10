@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230mm;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 320mm;
+    max-width: 1000px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.horizontalline{
+    display :block !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 7%;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    height: 2%;
+    background: #640dccf7;
+    width: 85%;
+    position: absolute;
+    top: 3%;
+}
+
+.profiletext{
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-left: 3%;
+    padding-top: 7%;
+}
+
+.profiletext .title7{
+    padding-top: 2%;
+    padding-left: 3%;
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1em;
+    display: flex;
+    justify-content: center;
+}
+
+.profiletext .imgbx{
+    display: none;
+}
+
+.occupation{
+    display: none;
+}
+
+.about{
+    border-top: 4px dotted #640dccf7;
+    border-bottom: 4px dotted #640dccf7;
+    position: absolute;
+    top: 15%;
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-right: 3%;
+    margin-right: 8%;
+    margin-top: 2%;
+    margin-left: 7%;
+    height: auto;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.about .title3{
+    display: none;
+}
+
+.contactinfo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.contactinfo .title{
+    display: none;
+}
+
+.contactinfo ul{
+    position: relative;
+    padding-left: 0%;
+    margin-right: 0%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin-top: 1%;
+    cursor: pointer;
+    padding-right: 23%;
+}
+
+.contactinfo ul li .icon{
+    display: none;
+}
+
+.contactinfo ul li .text{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactinfo ul li span{
+    font-weight: 300;
+}
+
+.education{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 59%;
+    bottom: 1%;
+    padding-right: 8%;
+    padding-left: 7%;
+    padding-top: 0px;
+    height: auto;
+}
+
+.education .title4{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+.education ul{
+    padding-left: 0%;
+    margin-top: 1%;
+}
+
+.education li{
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+.education h5{
+    float: right;
+    font-weight: 530;
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 2%;
+}
+
+.education h4:nth-child(2){
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+
+.education h4{
+    font-weight: 300;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+.languag{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 83%;
+    bottom: 1%;
+    padding-right: 8%;
+    padding-left: 7%;
+    padding-top: 1.5%;
+    height: auto;
+}
+
+.languag .title8{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.languag ul li{
+    position: relative;
+    list-style: none;
+    margin: 2px;
+}
+
+.languag .percent{
+    position: relative;
+    width: 60%;
+    height: 6px;
+    background: #081921;
+    display:block;
+    margin-top:5px;
+} 
+
+.languag .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #640dccf7;
+}
+
+.Experience{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 25%;
+    bottom: 1%;
+    padding-right: 8%;
+    padding-left: 7%;
+    height: auto;
+}
+
+.Experience .title2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.Experience .box{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.Experience .box .year_company{
+    min-width: 150px;
+}
+
+.Experience .box .year_company .year{
+    float: right;
+}
+
+.Experience .box .year_company .company{
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Experience .box .year_company h5{
+    text-transform: uppercase;
+    font-weight: 530;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+}
+
+.Experience .box .text h4{
+    text-transform: uppercase;
+    font-weight: 540;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+p{
+    color: #333;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.Experience .box .text .description{
+    color: #333;
+    padding-top: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.DisplaySkillsList{
+    display: block !important;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 50%;
+    bottom: 1%;
+    padding-right: 8%;
+    padding-left: 7%;
+    height: auto;
+}
+
+.DisplaySkillsList .SkillsListTitle{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+    padding-right: 2%;
+}
+
+.DisplaySkillsList ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0%;
+    margin-top: 0%;
+}
+.DisplaySkillsList ul li{
+    margin-top: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 4%;
+    margin-right: 2%;
+}
+
+.DisplaySkillsList ul li h4{
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    padding-top: 3%;
+    padding-bottom: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.interest{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 78%;
+    bottom: 1%;
+    padding-right: 8%;
+    padding-left: 7%;
+    height: auto;
+}
+
+.interest .title6{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    padding-left: 2%;
+}
+
+.interest ul li{
+    color: #333;
+    font-weight: 500;
+    margin: 2%;
+    margin-left: 0%;
+}

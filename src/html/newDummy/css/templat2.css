@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230mm;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px; 
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.profiletext{
+    position: absolute;
+    left: 1%;
+    right: 70%;
+    top: 3%;
+    bottom: 1%;
+    height: auto;
+    padding: 0px;
+    padding-bottom: 0px;
+    width: 50%;
+}
+
+.profiletext .title7{
+    padding-top: 10px;
+    padding-left: 0px;
+    font-size: 2.5em;
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext .imgbx{
+    display: none;
+}
+
+.occupation{
+    margin-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2.4em;
+    font-size: 1.3em;
+    font-weight: 300;
+    position: absolute;
+    left: 125%;
+    top: 5%;
+    background-color: rgba(96, 145, 137, 1);
+    color: white;
+    width: 60%;
+    z-index: 1;
+}
+
+.horizontalline{
+    display :block !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 4%;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    height: 0.4%;
+    background: rgba(96, 145, 137, 0.822);
+    width: 80%;
+    position: absolute;
+    top: 9%;
+}
+
+.about{
+    position: absolute;
+    left: 35%;
+    right: 1%;
+    top: 12.48%;
+    bottom: 1%;
+    padding-left: 20px;
+    padding-top: 25px;
+    padding-right: 20px;
+    height: auto;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.about .title3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    font-size: 18px;
+}
+
+.contactinfo{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 12%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 33%;
+    height: auto;
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    font-size: 18px;
+    padding-right: 2%;
+}
+
+.contactinfo ul{
+    position: relative;
+    
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 23%;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    position: absolute;
+    left: 88%;
+    top: 1%;
+    width: 30px;
+    font-size: 18px;
+    color: rgba(96, 145, 137, 0.822);
+}
+
+.contactinfo ul li .text{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactinfo ul li span{
+    font-weight: 300;
+}
+
+.education{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 34%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 33%;
+    height: auto;
+}
+
+.education .title4{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    font-size: 18px;
+    padding-right: 2%;
+}
+
+.education ul{
+    padding-left: 10%;
+}
+
+.education li{
+    margin-bottom: 25px;
+    list-style: none;
+}
+
+.education h5{
+    display: flex;
+    justify-content: end;
+    font-weight: 600;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.education h4:nth-child(2){
+    display: flex;
+    justify-content: end;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.education h4{
+    display: flex;
+    justify-content: end;
+    font-weight: 300;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.languag{
+    position: absolute;
+    left: 35%;
+    right: 1%;
+    top: 75%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-top: 20px;
+    height: auto;
+}
+
+.languag .title8{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.languag ul li{
+    position: relative;
+    list-style: none;
+    margin: 2px;
+}
+
+.languag .percent{
+    position: relative;
+    width: 70%;
+    height: 6px;
+    background: #081921;
+    display:block;
+    margin-top:5px;
+} 
+
+.languag .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(96, 145, 137, 0.822);
+}
+
+.Experience{
+    position: absolute;
+    left: 35%;
+    right: 1%;
+    top: 28%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-left: 15px;
+    height: auto;
+}
+
+.Experience .title2{
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.Experience .box{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.Experience .box .year_company{
+    min-width: 150px;
+}
+
+.Experience .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.Experience .box .text h4{
+    text-transform: uppercase;
+    color: rgba(96, 145, 137, 0.822);
+    font-size: 14px;
+    margin: 30px;
+}
+
+p{
+    color: #333;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.Experience .box .text .description{
+    color: #333;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.DisplaySkillsPercentage{
+    display: block !important;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 67%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-left: 15px;
+    width: 33%;
+    height: auto;
+}
+
+.DisplaySkillsPercentage .SkillsPercentageTitle{
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+}
+
+.DisplaySkillsPercentage .box{
+    position: relative;
+    width: 100%;
+    padding: 1px;
+    padding-right: 30px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.DisplaySkillsPercentage .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+    padding: 1px;
+    margin: 1px;
+}
+
+.DisplaySkillsPercentage .box .percent{
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background: #f0f0f0;
+}
+
+.DisplaySkillsPercentage .box .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(96, 145, 137, 0.822);
+}
+
+.interest{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 85%;
+    bottom: 1%;
+    padding-right: 25px;
+    padding-left: 15px;
+    width: 33%;
+    height: auto;
+}
+
+.interest .title6{
+    border-bottom: 2px solid rgba(96, 145, 137, 0.822);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+    padding-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+}
+
+.interest ul li{
+    color: #333;
+    font-weight: 500;
+    margin: 10px;
+}

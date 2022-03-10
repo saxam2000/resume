@@ -1,0 +1,410 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230mm;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 14px;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 320mm;
+    max-width: 1000px;
+    margin: 5px;
+    background: #fff;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.2);
+}
+
+.profiletext{
+    display: flex;
+    flex-direction: row;
+    height: 20%;
+    padding: 0px;
+    padding-bottom: 0px;
+    padding-left: 4%;
+    padding-top: 5%;
+}
+
+.profiletext .title7{
+    padding-top: 2%;
+    padding-left: 4%;
+    font-size: 3em;
+    margin-top: 0px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext .imgbx{
+    width: 25%;
+    height: 100%;
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.profiletext .imgbx img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 122%;
+    object-fit: cover;
+}
+
+.occupation{
+    margin-top: 0px;
+    text-transform: uppercase;
+    line-height: 2.4em;
+    font-size: 2.5em;
+    font-weight: 500;
+    position: absolute;
+    left: 32%;
+    top: 9%;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.horizontalline{
+    display :block !important;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 4%;
+    margin-right: auto;
+    border-style: hidden;
+    height: 3.5%;
+    background: rgba(239, 239, 239,1);
+    width: 90%;
+    position: absolute;
+    top: 21%;
+}
+
+.about{
+    position: absolute;
+    left: 29%;
+    right: 1%;
+    top: 13%;
+    bottom: 1%;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-right: 3%;
+    height: auto;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.about .title3{
+    display: none;
+}
+
+.contactinfo{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 20%;
+    bottom: 1%;
+    padding-right: 0%;
+    padding-top: 2%;
+    padding-left: 4%;
+    width: 33%;
+    height: auto;
+}
+
+.title{
+    display: none;
+}
+
+.contactinfo ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-left: 7%;
+}
+
+.contactinfo ul li{
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding-right: 10%;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 22px;
+    font-size: 17px;
+    color: rgba(9, 163, 9, 0.795);
+}
+
+.contactinfo ul li .text{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contactinfo ul li span{
+    font-weight: 300;
+}
+
+.education{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 60%;
+    bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    padding-top: 0px;
+    height: auto;
+}
+
+.education .title4{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    color: rgba(9, 163, 9, 0.795);
+    font-size: 18px;
+}
+
+.education ul{
+    padding-left: 0%;
+    margin-top: 1%;
+}
+
+.education li{
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+.education h5{
+    float: right;
+    font-weight: 530;
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-right: 2%;
+}
+
+.education h4:nth-child(2){
+    font-weight: 700;
+    margin-top: 0%;
+    margin-bottom: 0px;
+}
+
+.education h4{
+    font-weight: 300;
+    margin-top: 1%;
+    margin-bottom: 0px;
+}
+
+.languag{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 85%;
+    bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    height: auto;
+}
+
+.languag .title8{
+    text-transform: uppercase;
+    color: rgba(9, 163, 9, 0.795);
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.languag ul li{
+    position: relative;
+    list-style: none;
+    margin: 2px;
+}
+
+.languag .percent{
+    position: relative;
+    width: 60%;
+    height: 6px;
+    background: #081921;
+    display:block;
+    margin-top:5px;
+} 
+
+.languag .percent div{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(9, 163, 9, 0.795);;
+}
+
+.Experience{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 35%;
+    bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    height: auto;
+}
+
+.Experience .title2{
+    color: rgba(9, 163, 9, 0.795);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+}
+
+.Experience .box{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+
+.Experience .box .year_company{
+    min-width: 150px;
+}
+
+.Experience .box .year_company .year{
+    float: right;
+}
+
+.Experience .box .year_company .company{
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Experience .box .year_company h5{
+    text-transform: uppercase;
+    font-weight: 530;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 1%;
+}
+
+.Experience .box .text h4{
+    text-transform: uppercase;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+p{
+    color: #333;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.Experience .box .text .description{
+    color: #333;
+    padding-top: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 12px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.DisplaySkillsList{
+    display: block !important;
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 26%;
+    bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    height: auto;
+}
+
+.DisplaySkillsList .SkillsListTitle{
+    color: rgba(9, 163, 9, 0.795);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+    padding-right: 2%;
+}
+
+.DisplaySkillsList ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    margin-top: 0%;
+}
+.DisplaySkillsList ul li{
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 0%;
+    margin-right: 2%;
+    background-color: rgba(9, 163, 9, 0.795);
+    border-radius: 10%;
+}
+
+.DisplaySkillsList ul li h4{
+    color: #fff;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 2%;
+    padding-top: 9%;
+    padding-bottom: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.interest{
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    top: 80%;
+    bottom: 1%;
+    padding-right: 5%;
+    padding-left: 4%;
+    height: auto;
+}
+
+.interest .title6{
+    color: rgba(9, 163, 9, 0.795);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.interest ul{
+    display: grid;
+    grid-template-columns:  repeat(4,1fr);
+    padding-left: 2%;
+}
+
+.interest ul li{
+    color: #333;
+    font-weight: 500;
+    margin: 2%;
+    margin-left: 0%;
+}
